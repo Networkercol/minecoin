@@ -1,0 +1,16 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faucet de criptomonedas</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>Faucet de criptomonedas</h1>
+	<form id="formulario">
+		<input type="email" id="email" placeholder="Ingrese su correo electrónico">
+		<button id="boton">Ganar criptomonedas</button>
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
