@@ -1,0 +1,17 @@
+name: Token Faucet
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  token:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Crear token
+        run: |
+          npm install
+          npm run build
+          echo "Token creado"
+      - name: Ejecutar
